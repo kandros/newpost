@@ -65,7 +65,7 @@ func createPostFile(postFolderPath, postname string) string {
 	fileContent := fmt.Sprintf(`
 ---
 title: %s
-date: %s
+date: "%s"
 tags:
 	- TAG_ONE
 	- TAG_TWO
