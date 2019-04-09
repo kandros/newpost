@@ -21,6 +21,7 @@ func main() {
 
 	if len(args) == 0 {
 		fmt.Println("usage: newpost <postname>")
+		os.Exit(0)
 	}
 
 	postname := strings.Join(args, " ")
