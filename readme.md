@@ -16,3 +16,7 @@ example `~/.newpost/config.json`:
 `newpost my new blogpost`
 
 will create a post name with slug `newpost-my-new-blogpost`
+
+## install
+
+`go get -u github.com/kandros/newpost`
